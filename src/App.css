@@ -1,4 +1,6 @@
 .App {
+  margin: 0 0.4rem 0 0.4rem;
+  width: 98vh;
   height: 98vh;
   background-color: rgb(230, 230, 230);
 }

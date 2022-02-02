@@ -1,0 +1,10 @@
+.feed {
+
+    flex: 9;
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    border-radius: 1px;
+
+}

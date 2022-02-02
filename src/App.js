@@ -1,14 +1,24 @@
 import './App.css';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 
 import Navbar from './Components/Nav/Navbar';
+import Home from './Components/Pages/Home/Home';
+import Create from './Components/Pages/Create/Create';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <Router>
+      <div className="App">
         <Navbar />
-      </header>
-    </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/create" element={<Create />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

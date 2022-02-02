@@ -3,6 +3,7 @@ import './navbar.css';
 
 function Dropdown() {
 
+    //light/dark theme
     const [theme, setTheme] = useState(false);
 
     const handleDMode=() => {

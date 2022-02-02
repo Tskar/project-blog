@@ -1,0 +1,33 @@
+.create {
+    display: flex;
+}
+
+.formHolder {
+    flex: 9;
+    margin: 0.5rem;
+    background-color: white;
+    border: 1px solid #cfd1d3;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+.postForm {
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    width: 98%;
+
+}
+
+.postTopic {
+
+    margin: 0.5rem;
+    font-family: 'Viga', sans-serif;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}
+
+.postBody {
+    display: flex;
+    margin-top: 1rem; 
+}

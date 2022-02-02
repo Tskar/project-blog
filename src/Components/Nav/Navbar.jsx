@@ -1,7 +1,6 @@
 import './navbar.css';
 import Dropdown from './Dropdown.jsx';
 import React, {useState} from 'react';
-
 import { NavLink } from 'react-router-dom';
 
 
@@ -15,10 +14,10 @@ function Navbar() {
       <div className='left'>
         <ul className='left-list'>
           <li className='list-items'>
-            HOME
+            <NavLink exact activeClassName ="active" to="/">HOME</NavLink>
           </li>
           <li className='list-items'>
-            CREATE
+            <NavLink activeClassName ="active" to="/create">POST</NavLink>
           </li>
         </ul>
       </div>

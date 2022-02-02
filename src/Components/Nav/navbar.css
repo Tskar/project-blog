@@ -9,6 +9,7 @@
 
 }
 
+
 .left {
 
     flex: 6;
@@ -32,6 +33,12 @@
     padding-right: 1rem;
 }
 
+.active {
+
+    color: rgb(0, 191, 255);
+}
+
+
 .mid {
 
     flex: 2;
@@ -39,6 +46,7 @@
     align-items: center;
     justify-content: center;
 }
+
 
 .right {
 
