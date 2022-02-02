@@ -1,0 +1,78 @@
+.setting {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.setting-div {
+
+    height: 40%;
+    width: 70%;
+    margin: 0.5rem;
+    background-color: white;
+    border: 1px solid #cfd1d3;
+    border-radius: 1px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+}
+
+.settingtitle {
+    margin: 0.5rem;
+    font-family: 'Viga', sans-serif;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}
+
+
+.seperater {
+    border: 1px solid rgb(187, 187, 187);
+    width: 20%;
+}
+
+.settingoptions {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.settingbuttons {
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Viga', sans-serif;
+    color: rgb(63, 63, 63);
+}
+
+.settingbuttons:hover {
+    transition: 100ms;
+    color: rgb(0, 191, 255);
+}
+
+.triggered {
+    color: rgb(0, 191, 255);
+    text-decoration: underline;
+}
+
+
+.popupwindow {
+    position: absolute;
+    top: 7.1rem;
+    left: 8.2rem;
+    width: 30rem;
+    height: fit-content;
+    border: 1px solid #cfd1d3;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px black;
+    background-color: white;
+   
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 1.2rem;
+    font-family: 'Viga', sans-serif;
+}

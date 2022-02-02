@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './navbar.css';
 
+import { Link } from 'react-router-dom';
+
 function Dropdown() {
 
     //light/dark theme
@@ -16,12 +18,12 @@ function Dropdown() {
         <div className='ddMenu'>
             <a href='#' className='ddItems'>
                 <span>
-                    LOGIN
+                    <Link className="link" to="/login">LOGIN</Link>
                 </span>
             </a>
             <a href='#' className='ddItems'>
                 <span>
-                    REGISTER
+                <Link className="link" to="/register">REGISTER</Link>
                 </span>
             </a>
             <a href='#' className='ddItems'>
@@ -37,7 +39,7 @@ function Dropdown() {
             </a>
             <a href='#' className='ddItems'>
                 <span>
-                    SETTING
+                    <Link className="link" to="/setting">SETTING</Link>
                 </span>
             </a>
         </div>
