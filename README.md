@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h3 align="center">project-blog</h3>
+  <h2 align="center">Project-Blog</h2>
 
   <p align="center">
     An awesome blog web application!
@@ -32,3 +32,54 @@
     <li><a href="#roadmap">Roadmap</a></li>
   </ol>
 </details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+...
+
+
+### Built With
+
+* [![React][React.js]][React-url]
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To set up this project in your device, you need to follow these steps:
+
+### Prerequisites
+
+Your device needs to have the latest version of npm library. Just copy the code below in your terminal to install npm.
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Installation
+
+Now clone this repo in your local device.
+
+   ```sh
+   git clone https://github.com/Tskar/project-blog.git
+   ```
+<!-- USAGE EXAMPLES -->
+## Usage
+
+This application is a great way to create your blog, form your community and share knowledge.
+
+<!-- CONTACT -->
+## Contact
+
+Sanskar Thapa - [@sanskarthapa7](https://www.instagram.com/sanskarthapa7/) - sanskarthapaofficial@gmail.com
+
+Project Link: [https://github.com/Tskar/project-blog](https://github.com/Tskar/project-blog)
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
