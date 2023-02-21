@@ -36,10 +36,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<div height="100" width="100">
-  ![ERD](https://user-images.githubusercontent.com/93345914/220216166-f527d0bd-2a45-4e4d-83d0-88a0ceef62ce.png)
-  ERD of the application.
-</div>
+![ERD](https://user-images.githubusercontent.com/93345914/220216166-f527d0bd-2a45-4e4d-83d0-88a0ceef62ce.png)
+ERD of the application.
 
 
 ### Built With
