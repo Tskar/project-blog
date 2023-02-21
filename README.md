@@ -36,9 +36,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![ERD drawio](https://user-images.githubusercontent.com/93345914/220215851-523b6ea4-3d29-44de-88c5-7f0f5f976faa.png)
-ERD of the application.
-...
+<div height="100" width="100">
+  ![ERD](https://user-images.githubusercontent.com/93345914/220216166-f527d0bd-2a45-4e4d-83d0-88a0ceef62ce.png)
+  ERD of the application.
+</div>
 
 
 ### Built With
