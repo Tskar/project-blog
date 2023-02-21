@@ -36,6 +36,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![ERD drawio](https://user-images.githubusercontent.com/93345914/220215851-523b6ea4-3d29-44de-88c5-7f0f5f976faa.png)
+ERD of the application.
 ...
 
 
