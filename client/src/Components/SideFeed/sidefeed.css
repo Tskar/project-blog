@@ -1,0 +1,152 @@
+.sidefeed {
+    flex:2;
+    color: black;
+    height: 100vh;
+}
+
+.sidefeed-board {
+
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 1rem .5rem;
+    margin: 0 1.5rem;
+    min-height: 20rem;
+    height: auto;
+}
+
+.filter-title {
+
+    padding: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.filter-options {
+    
+    margin: 2rem 0;
+    list-style: none;
+
+}
+
+.filter-item {
+
+    margin: 1rem;
+    margin-left: -1.5rem;
+    cursor: pointer;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 .5rem;
+}
+
+.filter-item:hover {
+
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+.filter-item span {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+
+.cat-opt {
+
+    list-style: none;
+    
+}
+
+.cat-opt-off {
+
+    display: none;
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .sidefeed {
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+
+    .sidefeed-board {
+        min-height: auto;
+        min-width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .filter-title {
+
+        padding: 1rem .5rem;
+    }
+
+    .filter-options {
+        
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0 1.2rem;
+        position: relative;
+    }
+
+    .filter-item span {
+        gap: .5rem;
+    }
+
+    .cat-opt {
+
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        position: absolute;
+        left: 35%;
+        top: 70%;
+
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .sidefeed-board {
+
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .filter-options {
+
+        flex-direction: column;
+        margin: .8rem 0;
+        padding: 0 1rem;
+    }
+
+    .filter-item {
+
+        margin: 0;
+        padding: .2rem 0;
+    }
+
+    .cat-opt {
+
+        position: relative;
+        left: 0;
+        top: 0;
+
+    }
+
+}
+
